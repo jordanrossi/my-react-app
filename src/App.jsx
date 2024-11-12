@@ -61,7 +61,6 @@ export default function Game() {
     setHistory([...history, nextSquares]);
     setXIsNext(!xIsNext);
   }
-
   function jumpTo(nextMove) {
     // TODO
   }
