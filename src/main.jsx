@@ -10,7 +10,3 @@ root.render(
     <App />
   </StrictMode>
 );
-
-function Square({ value }) {
-  return <button className="square">{value}</button>;
-}
